@@ -6,7 +6,9 @@ Shenzhen Libituo Technology Co., Ltd LBT-T300-T310 v2.2.2.6 was discovered to co
 
 ### Vulnerability analysis
 Due to the lack of data length restrictions of the ApCliAuthMode parameter, a buffer overflow vulnerability is created.
+
 function call chain
+
 Main()->sub_40BEC8()->start_single_service()->start_workmode()->start_lan()->start_wlan()->config_wlan()->generate_conf()->generate_conf_router()->updateCurAPlist()->makeCurRemoteApList ().
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/e5860fcd7934499a8682a15e826b797e.png)
 
