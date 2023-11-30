@@ -1,6 +1,6 @@
 ﻿# LBT-T310 Buffer Overflow
 **Vulnerability description**
-Shenzhen Libituo Technology Co., Ltd LBT-T300-T310 v2.2.2.6 was discovered to contain a buffer overflow via multiple s parameters at /apply.cgi.
+Shenzhen Libituo Technology Co., Ltd LBT-T300-T310 v2.2.2.6 was discovered to contain a buffer overflow via multiple  parameters at /apply.cgi.
 
 ## 1.ApCliAuthMode
 
