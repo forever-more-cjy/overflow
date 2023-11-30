@@ -49,7 +49,9 @@ submit_button=apclient_scan&change_action=&wan_proto=9&action=Apply&wan_dns_enab
 ## 2.ApCliEncrypType
 ### Vulnerability analysis
 Due to the lack of data length restrictions of the ApCliEncrypType parameter, a buffer overflow vulnerability is created.
+
 function call chain
+
 Main()->sub_40BEC8()->start_single_service()->start_workmode()->start_lan()->start_wlan()->config_wlan()->generate_conf()->generate_conf_router()->updateCurAPlist()->makeCurRemoteApList ().
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/8316e2625c1b41d3a8dee38af221a239.png
 
